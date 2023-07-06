@@ -1,0 +1,19 @@
+{
+    "name": "use-sequential-list",
+    "version": "0.0.1",
+    "description": "useSequentialList hooks",
+    "main": "dis/index.js",
+    "license": "MIT",
+    "scripts": {
+        "build": "esbuild src/index.ts --bundle --minify --sourcemap --target=es2015 --outfile=dist/index.js",
+        "build:watch": "esbuild src/index.ts --bundle --minify --sourcemap --target=es2015 --outfile=dist/index.js --watch",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "esbuild": "^0.18.11",
+        "react": "^18.2.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.1.6"
+    }
+}
