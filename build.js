@@ -6,7 +6,7 @@ const shared = {
     entryPoints: [entryFile],
     minify: true,
     sourcemap: true,
-    target: ['esnext', 'node12.22.0'],
+    target: ['esnext', 'node16'],
 };
 
 await esbuild.build({
