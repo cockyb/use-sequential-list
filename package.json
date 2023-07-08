@@ -1,6 +1,6 @@
 {
     "name": "use-sequential-list",
-    "version": "0.0.3",
+    "version": "1.0.0",
     "description": "useSequentialList hooks",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
