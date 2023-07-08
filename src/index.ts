@@ -5,8 +5,8 @@ const IS_LOADED_PROPERTY = 'isLoaded';
 type Loading<T> = T & { [IS_LOADED_PROPERTY]: boolean };
 type Done<T> = T & { done: () => void };
 
-type UseSequentialListHook = <T extends object>(originList: Array<T>) => { items: Array<Done<Loading<T>>> };
-export const useSequentialList: UseSequentialListHook = <T extends object>(originList: Array<T> = []) => {
+type UseSequentialListHook = <T>(originList?: Array<T>) => { items: Array<Done<Loading<T>>> };
+export const useSequentialList: UseSequentialListHook = <T>(originList: Array<T> = []) => {
     const [sequentialList, setSequentialList] = useState<Array<Loading<T>>>([]);
 
     const index = sequentialList.findIndex((a) => a[IS_LOADED_PROPERTY] === false);
