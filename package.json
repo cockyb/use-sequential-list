@@ -1,6 +1,6 @@
 {
     "name": "use-sequential-list",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "useSequentialList hooks",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
@@ -9,6 +9,9 @@
     "type": "module",
     "scripts": {
         "build": "node build.js && tsc"
+    },
+    "peerDependencies": {
+        "react": ">=18.0.0"
     },
     "dependencies": {
         "react": "^18.2.0"
