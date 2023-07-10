@@ -23,7 +23,7 @@ const origin = [
 
 
 function App() {
-    const { items } = useSequentialList();
+    const { items } = useSequentialList(origin);
 
     return (
         <div>

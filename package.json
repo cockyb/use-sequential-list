@@ -1,6 +1,6 @@
 {
     "name": "use-sequential-list",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "useSequentialList hooks",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
@@ -20,5 +20,13 @@
         "@types/react": "^18.2.14",
         "esbuild": "^0.18.11",
         "typescript": "^5.1.6"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cockyb/use-sequential-list.git"
+    },
+    "bugs": {
+        "url": "https://github.com/cockyb/use-sequential-list/issues"
+    },
+    "homepage": "https://github.com/cockyb/use-sequential-list#readme"
 }
